@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.hero{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(iot8.jpeg);
+	background-position: center;
+	background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.nav-bar{
+	display: flex;
+	padding: 40px 120px;
+}
+.nav-links{
+	flex:1;
+}
+.nav-links ul{
+	margin-left: 50px;
+	display: inline;
+	color: white;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 6px 28px 29px 0px;
+	color: white;
+
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1000px;
+	width: 100%;
+	margin-right: 0px;
+}
+.nav-links ul li::after{
+	content: '';
+	width:0;
+	height: 2px;
+	background: yellow;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.banner-title{
+	margin: 80px 130px;
+	color: white;
+	margin-right: 10px;
+	margin-top: 250px;
+	/*background-color: blue;*/
+}
+}
+.banner-title h1{
+	font-size: 64px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	
+}
+
+.button{
+	padding :10px 20px;
+	margin-top: 10px;
+	border:0;
+	background: yellow;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 400px;
+}
+.facts{
+	color: white;
+	margin-top: 50px; 
+	font-style: oblique;
+
+}
+.second{
+margin-top: 50px;
+}
+.third{
+margin-top: 50px;
+}
+
+.four{
+margin-top: 50px;
+}
+.five{
+margin-top: 50px;
+}
+.meaning{
+	margin-top:10px;
+
+}
+.span{
+ color: yellow;
+}
